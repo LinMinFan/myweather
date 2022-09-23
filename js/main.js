@@ -1,8 +1,8 @@
 function loadpage(x) {
     let id = x;
     //console.log(id);
-    let dataUrl =
-        "https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=rdec-key-123-45678-011121314"
+    let dataUrl = "https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=CWB-7CA9B5E5-395F-42CC-92A8-197AA3780FD7";
+
     $.ajax({
         url: dataUrl,
         type: "get",
